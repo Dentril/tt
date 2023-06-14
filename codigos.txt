@@ -1,16 +1,17 @@
-echo "# Dentril" >> README.md
+#…ou crie um novo repositório na linha de comando
+echo "# tt" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/Dentril/Dentril.git
+git remote add origin https://github.com/Dentril/tt.git
 git push -u origin main
 
-<<<<<<< HEAD
-##
-git remote add origin https://github.com/Dentril/test2.git
+#…ou envie um repositório existente a partir da linha de comando
+git remote add origin https://github.com/Dentril/tt.git
 git branch -M main
 git push -u origin main
+
 =======
 # Adicionar Arquivos
 git add .
