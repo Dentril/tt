@@ -1,0 +1,31 @@
+echo "# Dentril" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Dentril/Dentril.git
+git push -u origin main
+
+<<<<<<< HEAD
+##
+git remote add origin https://github.com/Dentril/test2.git
+git branch -M main
+git push -u origin main
+=======
+# Adicionar Arquivos
+git add .
+git commit -m "first commit"
+git branch -M main
+git push
+>>>>>>> a559b72 (first commit)
+
+## DELETE REPOSITORIO LOCAL
+rm -r .git
+git init
+git add .
+git pull origin main
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Dentril/git.git
+git push -u origin main
+
