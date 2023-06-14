@@ -14,11 +14,12 @@ git push -u origin main
 
 =======
 # Adicionar Arquivos
+
 git add .
 git commit -m "first commit"
 git branch -M main
 git push
->>>>>>> a559b72 (first commit)
+
 
 ## DELETE REPOSITORIO LOCAL
 rm -r .git
